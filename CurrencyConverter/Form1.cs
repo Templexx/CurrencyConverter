@@ -33,7 +33,7 @@ namespace CurrencyConverter
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked) convert(DOllar);
+            if (radioButton1.Checked) convert(Dollar);
             else if (radioButton2.Checked) convert(Euro);
             else if (radioButton3.Checked) convert(Frank);
             else MessageBox.Show("Вы не выбрали валюту для перевода");
